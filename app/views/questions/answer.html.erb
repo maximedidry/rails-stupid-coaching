@@ -1,0 +1,11 @@
+<div class="flexbox">
+  <div class="question">
+    <span><%= @question %> <br></span>
+    <span> - You</span>
+  </div>
+  <div class="answer">
+    <span><%= @answer %> <br></span>
+    <span> - Your Coach</span>
+  </div>
+  <%= link_to "Ask another question", ask_path, class: "btn btn-primary"%>
+</div>

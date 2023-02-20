@@ -13,3 +13,67 @@
  *= require_tree .
  *= require_self
  */
+
+ h1 {
+  color: rgb(75, 52, 52);
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.question {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.answer {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  background-color: antiquewhite;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.btn-primary {
+  background-color: rgb(75, 52, 52) !important;
+  border-color: rgb(75, 52, 52)   !important;
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  display: flex !important;
+  justify-content: center !important;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px !important;
+}
+
+.btn-primary:hover {
+  background-color: rgb(202, 202, 202) !important;
+  border-color: rgb(202, 202, 202)   !important;
+  color:rgb(75, 52, 52) !important;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 40px;
+  padding-top: 50px;
+}
